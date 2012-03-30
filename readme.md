@@ -1,6 +1,6 @@
 NiCSS 
 ======
-Pronounced, Nice. NiCSS is a Nice CSS Syntax that takes a pythonic approach to CSS. 
+Pronounced, `nīs` ("nice"). NiCSS is a Nice CSS Syntax that takes a pythonic approach to CSS. 
 Built to work in the browser *or* client side. Currently in mega-alpha-stage, but gaining traction 
 towards being alpha or even beta.
 
@@ -23,11 +23,11 @@ header
   padding: 5px;
   margin: 0;
 
-// Without ; works too!
+// Lines without ";" at the end work too!
 .container
   margin: 0 auto
   width: 760px
-  /* You can also use = instead of : */
+  /* You can also use "=" instead of ":". */
   .main
     font-family=Helvetica,Arial,Sans-Serif
     font-size=10px
@@ -40,14 +40,14 @@ header
     // Returning back to .container .main
     font-size: 10px;
   
-  /* Back to .container */
+  /* Back to .container. */
   .sidebar
     background: #eee
     float: right
     width: 35%
 ```
 
-The `;` at the end of rules and variables are *optional*
+The `;` at the end of rules and variables are *optional* (yay!)
 
 ### Variables
 These allow you to store data in a key-value object:
