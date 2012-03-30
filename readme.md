@@ -1,6 +1,8 @@
-NiCSS
+NiCSS 
 ======
-A Nicer CSS or Nice CSS. Built to work in the browser *or* client side. Currently in mega-alpha-stage.
+Pronounced, Nice. NiCSS is a Nice CSS Syntax that takes a pythonic approach to CSS. 
+Built to work in the browser *or* client side. Currently in mega-alpha-stage, but gaining traction 
+towards being alpha or even beta.
 
 ## Usage
 Currently you can only convert a raw source of nicss to css, eventually it will parse files, and more.
@@ -26,7 +28,7 @@ header
     margin: 0 auto
     width: 760px
 
-// You can also use = instead of :
+/* You can also use = instead of : */
 .main
     font-family=Helvetica,Arial,Sans-Serif
     font-size=10
@@ -44,14 +46,13 @@ header
   color: $blue;
 ```
 
-The `;` at the end of rules and variables are *optional*
-
 ## Todo
 - Calculations using `$variables`
 - Better RegExp support for Elements
 - Support Server-Side files & Dynamic `.ncss` parsing
 - Backward-Compatability with CSS
 - Better Nesting capabilities, leaving parent -> enter child -> return to parent
+- Methods with optional parameters
 
 ## License
 Author: Nijiko Yonskai <http://resume.nexua.org> <nijikokun@gmail.com>
