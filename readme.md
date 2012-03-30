@@ -1,6 +1,6 @@
 NiCSS 
 ======
-Pronounced, Nice. NiCSS is a Nice CSS Syntax that takes a pythonic approach to CSS. 
+Pronounced, /nīs/ ("nice"). NiCSS is a Nice CSS Syntax that takes a pythonic approach to CSS. 
 Built to work in the browser *or* client side. Currently in mega-alpha-stage, but gaining traction 
 towards being alpha or even beta.
 
