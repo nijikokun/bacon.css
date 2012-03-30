@@ -19,19 +19,32 @@ Coming from CSS is easy you simply drop un-needed syntax:
 
 ``` css
 header
-    color: #5B83AD;
-    padding: 5px;
-    margin: 0;
+  color: #5B83AD;
+  padding: 5px;
+  margin: 0;
 
 // Without ; works too!
 .container
-    margin: 0 auto
-    width: 760px
-
-/* You can also use = instead of : */
-.main
+  margin: 0 auto
+  width: 760px
+  /* You can also use = instead of : */
+  .main
     font-family=Helvetica,Arial,Sans-Serif
-    font-size=10
+    font-size=10px
+    width: 60%
+    
+    // Nesting & Spacing Between Selectors / Comments
+    a
+      color: red
+    
+    // Returning back to .container .main
+    font-size: 10px;
+  
+  /* Back to .container */
+  .sidebar
+    background: #eee
+    float: right
+    width: 35%
 ```
 
 The `;` at the end of rules and variables are *optional*
@@ -51,7 +64,7 @@ header
 - Better RegExp support for Elements
 - Support Server-Side files & Dynamic `.ncss` parsing
 - Backward-Compatability with CSS
-- Better Nesting capabilities, leaving parent -> enter child -> return to parent
+- Better Nesting method *update* this is now in testing phase.
 - Methods with optional parameters
 
 ## License
