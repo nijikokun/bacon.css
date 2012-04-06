@@ -1,14 +1,20 @@
-NiCSS 
+``` 
+ __    _    __   __   _      __   __   __  
+|__)  / \  /  ` /  \ | \ |  /  ` /__` /__` 
+|__) /≈≈≈\ \__, \__/ |  \| .\__, .__/ .__/ 
+                                         
+```
 ======
-Pronounced, `nīs` ("nice"). NiCSS is a Nice CSS Syntax that takes a pythonic approach to CSS. 
-Built to work in the browser *or* client side. Currently in mega-alpha-stage, but gaining traction 
-towards being alpha or even beta.
+`bacon.css` It's motherfucking bacon. Takes the best pythonic approach to CSS. 
+Built to work in the browser *or* client side. Currently sizzlin in the pan, so let your mouth water as you're served.
+
+Why stop there? Why not stick your metal fork or spork directly into this pan. Fork us. Do it.
 
 ## Usage
 Currently you can only convert a raw source of nicss to css, eventually it will parse files, and more.
 
 ``` js
-var output = nicss.parser.raw(... source ..);
+var output = bacon.raw(... source ...); // Give us that raw bacon, we'll serve it up nice and hot.
 ```
 
 ## Language
@@ -27,10 +33,10 @@ header
 .container
   margin: 0 auto
   width: 760px
-  /* You can also use "=" instead of ":". */
+  /* You can also use "=" or  "≈" instead of ":". */
   .main
     font-family=Helvetica,Arial,Sans-Serif
-    font-size=10px
+    font-size≈10px
     width: 60%
     
     // Nesting & Spacing Between Selectors / Comments
