@@ -1,20 +1,21 @@
-``` 
- __    _    __   __   _      __   __   __  
-|__)  / \  /  ` /  \ | \ |  /  ` /__` /__` 
-|__) /≈≈≈\ \__, \__/ |  \| .\__, .__/ .__/ 
-                                         
-```
-====
-`bacon.css` It's motherfucking bacon. Takes the best pythonic approach to CSS. 
-Built to work in the browser *or* client side. Currently sizzlin in the pan, so let your mouth water as you're served.
+<pre>
+ ____    __    ___  _____  _  _     ___  ___  ___ 
+(  _ \  /__\  / __)(  _  )( \( )   / __)/ __)/ __)
+ ) _ ( /(__)\( (__  )(_)(  )  (   ( (__ \__ \\__ \
+(____/(__)(__)\___)(_____)(_)\_)() \___)(___/(___/
 
-Why stop there? Why not stick your metal fork or spork directly into this pan. Fork us. Do it.
+</pre>
+====
+`Bacon.css`, It's motherfucking bacon. Takes the best pythonic approach to CSS. 
+Built to work in the browser *or* client side. Currently sizzlin' in the pan, so let your mouth water as you're served.
+
+Why stop there? Why not stick your fork or spork directly into this pan. Fork us. Do it.
 
 ## Usage
 Currently you can only convert a raw source of bacon to css, eventually it will parse files, and more.
 
 ``` js
-var output = bacon.raw(... source ...); // Give us that raw bacon, we'll serve it up nice and hot.
+var output = bacon.raw(... source ...); // Give us that raw bacon, we'll serve it up nice, and hot.
 ```
 
 ## Language
@@ -33,7 +34,7 @@ header
 .container
   margin: 0 auto
   width: 760px
-  /* You can also use "=" or  "≈" instead of ":". */
+  /* You can also use "=" or "≈" instead of ":". */
   .main
     font-family=Helvetica,Arial,Sans-Serif
     font-size≈10px
@@ -53,7 +54,7 @@ header
     width: 35%
 ```
 
-The `;` at the end of rules and variables are *optional* (yay!)
+The `;` at the end of rules and variables are *optional* (yay!).
 
 ### Variables
 These allow you to store data in a key-value object:
