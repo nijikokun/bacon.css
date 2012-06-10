@@ -52,6 +52,10 @@ header
     background: #eee
     float: right
     width: 35%
+    
+  /* Overriding? Need Importance, easy. */
+  .sidebar
+    background: #ccc !
 ```
 
 The `;` at the end of rules and variables are *optional* (yay!).
@@ -64,6 +68,14 @@ $blue: #5B83AD;
 
 header
   color: $blue;
+```
+
+### Importance
+For overriding or utilizing `!important` you simply just need to append a `!` to your clause like so:
+
+``` css
+header
+  color: #666 !
 ```
 
 ## Todo
