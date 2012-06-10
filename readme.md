@@ -34,11 +34,11 @@ header
 .container
   margin: 0 auto
   width: 760px
-  /* You can also use "=" or "≈" instead of ":". */
+  /* You can also use "=" instead of ":". */
   .main
     font-family=Helvetica,Arial,Sans-Serif
-    font-size≈10px
-    width: 60%
+    font-size=10px
+    width=60%
     
     // Nesting & Spacing Between Selectors / Comments
     a
