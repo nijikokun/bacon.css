@@ -15,7 +15,7 @@ Why stop there? Why not stick your fork or spork directly into this pan. Fork us
 Currently you can only convert a raw source of bacon to css, eventually it will parse files, and more.
 
 ``` js
-var output = bacon.raw(... source ...); // Give us that raw bacon, we'll serve it up nice, and hot.
+var output = bacon.cook(... source ...); // Give us that raw bacon, we'll serve it up nice, and hot.
 ```
 
 ## Language
