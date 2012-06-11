@@ -78,6 +78,14 @@ header
   color: #666 !
 ```
 
+### None
+For quick typing or just plain sugar, `!!` maps to `none`. Seen as a double negative.
+
+``` css
+a
+  text-decoration: !!
+```
+
 ## Extras
 
 ### jQuery Usage
