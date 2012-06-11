@@ -100,6 +100,8 @@ Put this at the bottom of your body and it will parse all script tags with `baco
 - Backward-Compatability with CSS
 - Better Nesting method *update* this is now in testing phase.
 - Methods with optional parameters
+- Built in CSS3 methods with support for all browser prefixes.
+- Media Queries Support
 
 ## License
 Author: Nijiko Yonskai <http://resume.nexua.org> <nijikokun@gmail.com>
