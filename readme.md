@@ -88,6 +88,7 @@ Put this at the bottom of your body and it will parse all script tags with `baco
   <script type="text/javascript">
     $('script[type="bacon/css"]', 'bacon').each(function () {
       $('head').append(($('<style>').text(bacon.cook($(this).text()))));
+      $(this).remove(); // For Bacon Tags
     });
   </script>
 ```
