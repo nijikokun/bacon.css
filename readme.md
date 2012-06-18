@@ -1,6 +1,6 @@
 <img src="https://a248.e.akamai.net/camo.github.com/4aa62afaa0449ae91e4cb975202b45146bff4292/687474703a2f2f696d61676573332e77696b69612e6e6f636f6f6b69652e6e65742f5f5f636232303130303830323133323035372f72657374617572616e74636974792f696d616765732f617263686976652f662f66362f3230313130353137313531333438214261636f6e2e706e67" align="right" style="margin: 0 10px" />
 <h1>Bacon.CSS</h1>
-`Bacon.css`, It's motherfucking bacon. Takes the best pythonic approach to CSS. 
+`Bacon.css`, It's motherfrikkin' bacon. Takes the best pythonic approach to CSS. 
 Built to work in the browser *or* client side. Currently sizzlin' in the pan, so let your mouth water as you're served.
 
 Why stop there? Why not stick your fork or spork directly into this pan. Fork us. Do it.
